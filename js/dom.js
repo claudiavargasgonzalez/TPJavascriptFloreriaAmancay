@@ -110,7 +110,7 @@ const submit = (e) => {
     const submitAccepted = values.every(value => value)
 
     submitAccepted 
-    ? location.href = '/compraExitosa.html'
+    ? location.href = 'compraExitosa.html'
     : alert('Debes completar todos los campos correctamente')
 }
 form.addEventListener('submit', submit)
